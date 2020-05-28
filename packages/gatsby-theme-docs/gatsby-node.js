@@ -5,8 +5,8 @@ const withDefaults = require('./utils/default-options');
 
 exports.onPreBootstrap = ({ store }, options) => {
   const { program } = store.getState();
-  const { contextPath } = withDefaults(options);
-  const dir = path.join(program.directory, contextPath);
+  const { contentPath } = withDefaults(options);
+  const dir = path.join(program.directory, contentPath);
 
   if (!fs.existsSync(dir)) {
     mkdirp.sync(dir);
