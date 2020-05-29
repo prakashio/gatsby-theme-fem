@@ -1,13 +1,5 @@
----
-title: 'Help'
----
-
-```js
 import Code from '../components/code';
 
 export default {
   pre: Code,
 };
-```
-
-Here is the help sections
