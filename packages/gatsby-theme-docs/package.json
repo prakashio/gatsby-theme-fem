@@ -4,10 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@emotion/core": "^10.0.28",
     "@mdx-js/mdx": "^1.6.4",
     "@mdx-js/react": "^1.6.4",
     "gatsby-plugin-mdx": "^1.2.12",
+    "gatsby-plugin-theme-ui": "^0.3.0",
     "gatsby-source-filesystem": "^2.3.8",
-    "mkdirp": "^1.0.4"
+    "mkdirp": "^1.0.4",
+    "theme-ui": "^0.3.1"
   }
 }
