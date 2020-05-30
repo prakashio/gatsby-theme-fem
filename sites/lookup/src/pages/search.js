@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import Form from '../components/form';
 
 const Search = () => (
   <>
@@ -8,6 +9,7 @@ const Search = () => (
       Trying to remember which Rick you're talking about? Try out the search
       interface
     </p>
+    <Form />
   </>
 );
 
