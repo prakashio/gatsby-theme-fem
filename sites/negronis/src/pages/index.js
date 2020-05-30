@@ -1,4 +1,6 @@
-import React from 'react';
+/** @jsx jsx */
+
+import { jsx } from 'theme-ui';
 import { Link, graphql } from 'gatsby';
 import Layout from '../components/layout';
 import Image from 'gatsby-image';
@@ -28,6 +30,12 @@ const Index = ({ data }) => (
       opportunities to experiment with flavors.
     </p>
     <Link to="/history">Learn the History</Link>
+    <Link to="/recipes" sx={{ ml: 2 }}>
+      Recipes
+    </Link>
+    <Link to="/events" sx={{ ml: 2 }}>
+      Upcomming Events
+    </Link>
   </Layout>
 );
 
